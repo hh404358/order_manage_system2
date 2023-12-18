@@ -2,16 +2,19 @@
 ## [功能描述]：连接数据库里的订单表和商品单表，对订单和商品进行增删查改
 ## [开发环境]：idea
 ## [项目结构简介]：
-### Connection
-连接数据库
-### Controller
-对数据库的相关操作
-### Goods
-商品类
-### Order 
-订单类
-### Management
-对订单和商品的相关操作
+```
+ └─main
+        └─java
+            ├─haha
+            │  ├─Connection连接数据库
+            │  ├─Controller对数据库的相关操作
+            │  ├─Goods商品类
+            │  ├─Management对订单和商品的相关操作
+            │  └─Order订单类
+            ├─org
+            │  └─example
+            └─resources
+```
 ### Main
 启动该订单管理系统
 ## [编写过程遇到的问题]
